@@ -28,6 +28,7 @@ def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataF
         return df
     except Exception as e:
         raise SensorException(e, sys)
+    
 
 def write_yaml_file(file_path,data:dict):
     try:
@@ -37,7 +38,7 @@ def write_yaml_file(file_path,data:dict):
             yaml.dump(data,file_writer)
     except Exception as e:
         raise SensorException(e, sys)
-    
+
 def convert_columns_float(df:pd.DataFrame,exclude_columns:list)->pd.DataFrame:
     try:
         for column in df.columns:
@@ -46,6 +47,7 @@ def convert_columns_float(df:pd.DataFrame,exclude_columns:list)->pd.DataFrame:
         return df
     except Exception as e:
         raise e
+
 
 def save_object(file_path: str, obj: object) -> None:
     try:
