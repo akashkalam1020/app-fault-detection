@@ -2,8 +2,11 @@ import pymongo
 import pandas as pd
 import json
 from dataclasses import dataclass
-# Provide the mongodb localhost url to connect python to mongodb.
 import os
+from dotenv import load_dotenv
+
+print(f"Loading environment variable from .env file")
+load_dotenv()
 
 @dataclass
 class EnvironmentVariable:
