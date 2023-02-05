@@ -17,6 +17,9 @@ raw_data
 start.sh
 Dockerfile
 docker-compose.yaml
+.dockerignore
+.github/
+airflow/
 
 
 # Distribution / packaging
