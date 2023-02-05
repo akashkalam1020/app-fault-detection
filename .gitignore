@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+sensor/__pycache__
 artifact
 # C extensions
 *.so
@@ -11,6 +12,15 @@ demotest.py
 logs
 artifacts
 raw_data
+
+# Deployment files hide for temporarily purpose
+.github
+airflow
+.dockerignore
+Dockerfile
+docker-compose.yaml
+start.sh
+
 # Distribution / packaging
 .Python
 build/
