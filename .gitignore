@@ -14,8 +14,8 @@ artifacts
 raw_data
 
 # Deployment files hide for temporarily purpose
-.github
-airflow
+*.github/
+airflow/
 .dockerignore
 Dockerfile
 docker-compose.yaml
