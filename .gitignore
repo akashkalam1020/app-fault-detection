@@ -14,12 +14,10 @@ artifacts
 raw_data
 
 # Deployment files hide for temporarily purpose
-*.github/
-airflow/
-.dockerignore
+start.sh
 Dockerfile
 docker-compose.yaml
-start.sh
+
 
 # Distribution / packaging
 .Python
