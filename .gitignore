@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-sensor/__pycache__
+sensor/__pycache__/
 artifact
 # C extensions
 *.so
