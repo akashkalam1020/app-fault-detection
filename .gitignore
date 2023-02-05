@@ -2,11 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-sensor/__pycache__/
-__pycache__
-__pycache__/
-**/__pycache__/
-*/__pycache__/
 artifact
 # C extensions
 *.so
@@ -25,7 +20,6 @@ docker-compose.yaml
 .github/
 airflow/
 
-
 # Distribution / packaging
 .Python
 build/
@@ -42,9 +36,8 @@ var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
-*.egg-info/
+.egg-info
 .installed.cfg
-*.egg
 MANIFEST
 
 # PyInstaller
